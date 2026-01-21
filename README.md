@@ -74,5 +74,57 @@ Example:
 ---
 
 ## 📂 Project Structure
+```
+credit-risk-prediction-app/
+│
+├── data/ # Dataset files
+├── model/ # Trained ML model
+├── notebooks/ # EDA & model training notebooks
+├── app.py # Streamlit application
+├── train_model.py # Model training script
+├── requirements.txt # Project dependencies
+├── README.md # Project documentation
+└── .venv/ # Virtual environment
+```
 
+---
 
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/credit-risk-prediction-app.git
+cd credit-risk-prediction-app
+```
+### 2️⃣ Create & Activate Virtual Environment
+```bash
+py -3.10 -m venv .venv
+.venv\Scripts\activate
+```
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### ▶️ Run the Application
+```bash
+streamlit run app.py
+```
+---
+## 🎯 Use Cases
+
+- Bank loan approval systems  
+- FinTech credit scoring platforms  
+- Financial risk analysis  
+- Academic and portfolio ML projects  
+
+---
+
+## 🔮 Future Enhancements
+
+- 📊 Model explainability (SHAP / LIME)  
+- 📈 Model performance dashboard  
+- 🧾 Automated credit reports  
+- 🔐 User authentication  
+- ☁️ Cloud deployment (Streamlit Cloud / AWS / Render)  
+
+---
